@@ -1,0 +1,201 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #F9F9F9;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: "Inter"
+
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--fonte-principal);
+}
+
+.principal {
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    line-height: 33.89px;
+    align-items: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50%;
+    
+}
+
+.header_principal {
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 28px;
+    
+}
+
+
+
+.botao_principal {
+    text-decoration: none;
+    color: var(--branco-principal);
+    background-color: var(--botao-azul);
+    padding: 1em;
+    border-radius: 5px;
+    display: block;
+    margin: 54px 0px 16px 16px;
+    gap: 16px;
+    font-weight: 400    
+    
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    margin: 0 0 0 16px;
+}
+
+.principal_caixa_texto {
+    width: 588px;
+    left: 14px;
+    
+}
+
+.principal_img_combo {
+    margin: 27px 0px 0px 0;
+ 
+}
+.principal_aviso {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--cinza-secundario);
+    opacity: 0.8;
+}
+
+
+
+.secundario_container {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.secundario_caixa {
+    width: 588px;
+    left: 69px;
+}
+
+.secundario_titulo {
+    font-size: 48px;
+    font-weight: 700;
+
+}
+.secundario_texto {
+   font-weight: 400;
+   opacity: 0.8;
+   line-height: 150%;
+   padding-top: 8px;
+   
+}
+
+.secundario_imagem_plataformas {
+    margin-left: 165px;
+}
+
+.secundario_texto_telas {
+    font-weight: 400;
+    width: 588px;
+    opacity: 0.8;
+    line-height: 150%;
+    padding-top: 8px;
+    margin-left: 120px;
+}
+
+.secundario_imagem_telas {
+    margin:0 166px 0 150px;
+    
+}
+
+.botao_terciario {
+    text-decoration: none;
+    color: var(--branco-principal);
+    background-color: var(--botao-azul);
+    padding: 1em;
+    border-radius: 5px;
+    margin: 16px 0 0 120px;
+    display: inline-block;
+}
+
+.dispositivos {
+    margin-top: 264px;
+    width:1400px;
+    text-align: center;
+}
+
+.plataformas {
+    margin: 40px 34px;
+}
+
+.lista_plataformas {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.legenda {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.rodape {
+    text-align: center;
+    justify-content: center;
+    margin-top: 145px;
+    width: 1200px;
+    margin-left: 120px;
+    margin-bottom: 100px;
+    
+}
+
+.rodape__lista {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;    
+    gap: 16px;
+    margin-top: 3em;
+    
+
+}
+
+.rodape-lista__link {
+    text-decoration: none;
+    color: var(--branco-principal);
+    
+}
+
+.rodape-lista__link:hover {
+    color: var(--botao-azul);
+}
+
+.rodape__texto {
+    margin-top: 1.5em;
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    opacity: 0.8;
+    
+
+}
